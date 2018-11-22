@@ -1,0 +1,10 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border: 1px solid #114c36;
+  border-radius: $radius;
+  background-clip: padding-box;
+}
+
+@mixin bleed() {
+  bleed: 5px;
+}
